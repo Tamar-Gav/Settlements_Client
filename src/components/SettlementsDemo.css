@@ -1,0 +1,43 @@
+/* ProductsDemo.css */
+
+/* סגנון לקונטיינר הראשי */
+.table-container {
+  width: 50%;
+  margin: 0 auto; /* מרכז את הרכיב אופקית */
+}
+
+/* סגנון לכותרות הטבלה */
+.p-datatable .p-datatable-thead > tr > th {
+  text-align: right; /* יישור לימין */
+  padding-right: 1rem; /* ריווח פנימי מצד ימין */
+}
+
+/* סגנון לתאי הטבלה */
+.p-datatable .p-datatable-tbody > tr > td {
+  text-align: right; /* יישור לימין */
+}
+/* סגנון לראש הטבלה */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  direction: rtl;
+}
+
+/* סגנון לשדות החיפוש */
+.p-input-icon-left {
+  direction: ltr; /* שמירה על כיוון החיפוש משמאל לימין */
+}
+.pi {
+  margin-left: 0.5em;
+}
+.header-title {
+  margin-left: 0%; /* כדי למקם את הכותרת בצד ימין */
+}
+
+/* סגנון לכפתורים בטבלה */
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
